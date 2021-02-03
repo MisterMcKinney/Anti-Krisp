@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-color:#ffffff;
+    margin:0;
+    font-family:"Lato";
+}
+#topbar {
+    width:100%;
+    height:3em;
+    background:#11456D;
+}
+#topbar h1 {
+    display:inline;
+    font-variant:small-caps;
+    color:#dfdfdf;
+    font-size:2em;
+    margin-left:.6em;
+    font-weight:200;
+    cursor: pointer;
+    padding-bottom:2px;
+    user-select:none;
+    transition:border-bottom 0.3s ease;
+}
+#topbar h1:hover {
+    border-bottom:2px solid #dfdfdf;
+}
+#missionstatement { 
+    font-size:24px;
+    background:#496982;
+    color:white;
+    padding:3em;
+}
+#missionstatement>p:nth-of-type(1) { right:1em; font-size:1.5em; font-family:"Bebas Neue"; }
+#missionstatement>p:nth-of-type(2) { font-family:"Lato"; font-size:24px; }
+#missionstatement>ul { font-size:0.8em; }
+#missionstatement>ul::before { content:"- ";}
